@@ -23,7 +23,7 @@ body {
 
 main {
     position: relative;
-    max-width: 890px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 32px 80px;
 }
@@ -32,8 +32,8 @@ h1 {
     font-size: 120px;
     font-weight: 600;
     line-height: 1em;
+    margin-top: 32px;
     margin-bottom: 40px;
-    margin-top: 16px;
 }
 
 h2 {
@@ -56,7 +56,7 @@ img {
     width: 320px;
     right: 0;
     top: 0;
-    opacity: .6;
+    opacity: .8;
     user-select: none;
     pointer-events: none;
     z-index: -1;
@@ -69,19 +69,6 @@ p {
 
     &:not(:last-of-type) {
         margin-bottom: 32px;
-    }
-}
-
-small {
-    color: #a0a0a0;
-    font-size: 14px;
-
-    a {
-        color: inherit;
-
-        &::after {
-            background-color: currentColor;
-        }
     }
 }
 
@@ -144,10 +131,6 @@ a {
 
     p {
         font-size: 14px;
-    }
-
-    small {
-        font-size: 12px;
     }
 
     img {
